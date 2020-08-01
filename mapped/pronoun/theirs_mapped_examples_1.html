@@ -1,0 +1,69 @@
+<html>
+                <meta charset="utf-8"/>
+                <head>
+                <style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 0px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+
+                </head>
+                <body style="background-color:#E0E5E1;">
+                 <a href="../../index.html">Index Page</a>&nbsp&nbsp<a href=" theirs_mapped_examples_-1.html ">Previous Page</a>&nbsp&nbsp<ul>
+            <li>Mapped (aligned) span of words in translation and Glossery are highlighted.</li>
+            <li>A highligted span of text is followed by a superscrip number</li>
+            <li>The superscript number tells to which word in glossery this span is mapped.</li>
+            <li> Non highlighted words in translation and glossery are not mapped (aligned) yet. </li>
+            <li>For the selected word: Unmapped (aligned) instances text color: Red, Mapped (not aligned) instnaces text color: Green</li>
+</ul><script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                      content.style.display = "none";
+                    } else {
+                      content.style.display = "block";
+                    }
+                  });
+                }
+                </script></body>
+                            </html><script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                      content.style.display = "none";
+                    } else {
+                      content.style.display = "block";
+                    }
+                  });
+                }
+                </script></body>
+                            </html>
